@@ -20,5 +20,9 @@ public class Main {
         System.out.println("MyIntValue = " + myIntValue);
         System.out.println("MyFloatValue = " + myFloatValue);
         System.out.println("MyDoubleValue = " + myDoubleValue);
+
+        double poundValue = 5d;
+        double kilogramValue = poundValue * 0.45359237d;
+        System.out.println("The kilogram value = " + kilogramValue);
     }
 }
