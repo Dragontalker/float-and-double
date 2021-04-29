@@ -13,5 +13,9 @@ public class Main {
         double myMaxDoubleValue = Double.MAX_VALUE;
         System.out.println("Double Minimum Value = " + myMinDoubleValue);
         System.out.println("Double Maximum Value = " + myMaxDoubleValue);
+
+        int myIntValue = 5;
+        float myFloatValue = 5.25f;
+        double myDoubleValue = 5.25d;
     }
 }
