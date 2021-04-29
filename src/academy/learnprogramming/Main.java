@@ -3,6 +3,10 @@ package academy.learnprogramming;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        float myMinFloatValue = Float.MIN_VALUE;
+        float myMaxFloatValue = Float.MAX_VALUE;
+        System.out.println("Float Minimum Value = " + myMinFloatValue);
+        System.out.println("Float Maximum Value = " + myMaxFloatValue);
     }
 }
